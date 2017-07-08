@@ -190,5 +190,65 @@
     "unicode": "⚡",
     "description": "when introducing Backward-InCompatible Features, maybe with @CHANGED Comment Tag",
     "tags": ""
+  },
+  {
+    "raw": ":bulb:",
+    "unicode": "💡",
+    "description": "New Idea, with @IDEA Comment Tag",
+    "tags": ""
+  },
+  {
+    "raw": ":snowflake:",
+    "unicode": "❄️",
+    "description": "changing Configuration, Usually together with 🐧 or 🎀 or 🚀",
+    "tags": ""
+  },
+  {
+    "raw": ":ribbon:",
+    "unicode": "🎀",
+    "description": "Customer requested application Customization, with @HACK Comment Tag",
+    "tags": ""
+  },
+  {
+    "raw": ":rocket:",
+    "unicode": "🚀",
+    "description": "Anything related to Deployments/DevOps",
+    "tags": "OTA"
+  },
+  {
+    "raw": ":elephant:",
+    "unicode": "🐘",
+    "description": "PostgreSQL Database specific (Migrations, Scripts, Extensions, ...)",
+    "tags": ""
+  },
+  {
+    "raw": ":dolphin:",
+    "unicode": "🐬",
+    "description": "MySQL Database specific (Migrations, Scripts, Extensions, ...)",
+    "tags": ""
+  },
+  {
+    "raw": ":leaves:",
+    "unicode": "🍃",
+    "description": "MongoDB Database specific (Migrations, Scripts, Extensions, ...)",
+    "tags": ""
+  },
+  {
+    "raw": ":bank:",
+    "unicode": "🏦",
+    "description": "Generic Database specific (Migrations, Scripts, Extensions, ...)",
+    "tags": ""
+  },
+  {
+    "raw": ":whale:",
+    "unicode": "🐳",
+    "description": "Docker Configuration",
+    "tags": ""
+  },
+  {
+    "raw": ":handshake:",
+    "unicode": "🤝",
+    "description": "when Merge files",
+    "tags": ""
   }
 ]
