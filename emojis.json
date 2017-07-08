@@ -1,0 +1,194 @@
+[
+  {
+    "raw": ":art:",
+    "unicode": "🎨",
+    "description": "when improving the format/structure of the code",
+    "tags": "refractoring, "
+  },
+  {
+    "raw": ":newspaper:",
+    "unicode": "📰",
+    "description": "when creating a new file",
+    "tags": "generating"
+  },
+  {
+    "raw": ":pencil:",
+    "unicode": "✏️",
+    "description": "when performing minor changes/fixing the code or language",
+    "tags": ""
+  },
+  {
+    "raw": ":racehorse:",
+    "unicode": "🏇",
+    "description": "when improving performance",
+    "tags": ""
+  },
+  {
+    "raw": ":books:",
+    "unicode": "📚",
+    "description": "when writing docs",
+    "tags": ""
+  },
+  {
+    "raw": ":bug:",
+    "unicode": "🐛",
+    "description": "when reporting a bug, with @FIXMEComment Tag",
+    "tags": ""
+  },
+  {
+    "raw": ":ambulance:",
+    "unicode": "🚑",
+    "description": "when fixing a bug",
+    "tags": ""
+  },
+  {
+    "raw": ":penguin:",
+    "unicode": "🐧",
+    "description": "when fixing something on Linux",
+    "tags": ""
+  },
+  {
+    "raw": ":apple:",
+    "unicode": "🍎",
+    "description": "when fixing something on Mac OS",
+    "tags": ""
+  },
+  {
+    "raw": ":checkered_flag:",
+    "unicode": "🏁",
+    "description": "when fixing something on Windows",
+    "tags": ""
+  },
+  {
+    "raw": ":fire:",
+    "unicode": "🔥",
+    "description": "when removing code or files, maybe with @CHANGED Comment Tag",
+    "tags": ""
+  },
+  {
+    "raw": ":tractor:",
+    "unicode": "🚜",
+    "description": "when change file structure. Usually together with :art:",
+    "tags": ""
+  },
+  {
+    "raw": ":umbrella:",
+    "unicode": "☂️",
+    "description": "when adding tests",
+    "tags": ""
+  },
+  {
+    "raw": ":microscope:",
+    "unicode": "🔬",
+    "description": "when adding code coverage",
+    "tags": ""
+  },
+  {
+    "raw": ":green_heart:",
+    "unicode": "💚",
+    "description": "when fixing the CI build",
+    "tags": ""
+  },
+  {
+    "raw": ":lock:",
+    "unicode": "🔒",
+    "description": "when dealing with security",
+    "tags": ""
+  },
+  {
+    "raw": ":arrow_up:",
+    "unicode": "⬆️",
+    "description": "when upgrading dependencies",
+    "tags": ""
+  },
+  {
+    "raw": ":arrow_down:",
+    "unicode": "⬇️",
+    "description": "when downgrading dependencies",
+    "tags": ""
+  },
+  {
+    "raw": ":fast_forward:",
+    "unicode": "⏩",
+    "description": "when forward-porting features from an older version/branch",
+    "tags": ""
+  },
+  {
+    "raw": ":rewind:",
+    "unicode": "⏪",
+    "description": "when backporting features from a newer version/branch",
+    "tags": ""
+  },
+  {
+    "raw": ":shirt:",
+    "unicode": "👕",
+    "description": "when removing linter/strict/deprecation warnings",
+    "tags": ""
+  },
+  {
+    "raw": ":lipstick:",
+    "unicode": "💄",
+    "description": "when improving UI/Cosmetic",
+    "tags": "styling, "
+  },
+  {
+    "raw": ":wheelchair:",
+    "unicode": "♿",
+    "description": "when improving accessibility",
+    "tags": ""
+  },
+  {
+    "raw": ":globe_with_meridians:",
+    "unicode": "🌐",
+    "description": "when dealing with globalization/internationalization/i18n/g11n",
+    "tags": ""
+  },
+  {
+    "raw": ":construction:",
+    "unicode": "🚧",
+    "description": "WIP(Work In Progress) Commits, maybe with @REVIEW Comment Tag",
+    "tags": ""
+  },
+  {
+    "raw": ":gem:",
+    "unicode": "💎",
+    "description": "New Release",
+    "tags": ""
+  },
+  {
+    "raw": ":bookmark:",
+    "unicode": "🔖",
+    "description": "Version Tags",
+    "tags": ""
+  },
+  {
+    "raw": ":tada:",
+    "unicode": "🎉",
+    "description": "Initial Commit",
+    "tags": "first, starting"
+  },
+  {
+    "raw": ":speaker:",
+    "unicode": "🔈",
+    "description": "when Adding Logging",
+    "tags": ""
+  },
+  {
+    "raw": ":mute:",
+    "unicode": "🔇",
+    "description": "when Reducing Logging",
+    "tags": ""
+  },
+  {
+    "raw": ":sparkles:",
+    "unicode": "✨",
+    "description": "when introducing New Features",
+    "tags": "adding"
+  },
+  {
+    "raw": ":zap:",
+    "unicode": "⚡",
+    "description": "when introducing Backward-InCompatible Features, maybe with @CHANGED Comment Tag",
+    "tags": ""
+  }
+]

@@ -1,0 +1,175 @@
+body {
+    width: 320px;
+    height: 480px;
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='4' height='4' viewBox='0 0 4 4'%3E%3Cpath fill='%23c6c9c8' fill-opacity='0.4' d='M1 3h1v1H1V3zm2-2h1v1H3V1z'%3E%3C/path%3E%3C/svg%3E");
+}
+
+body::-webkit-scrollbar {
+    background: #eee;
+    width: 3px;
+}
+
+body::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #888;
+}
+
+body:not(:hover)::-webkit-scrollbar-thumb {
+    background: rgba(100, 100, 100, 0.4);
+}
+
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none;
+}
+
+nav {
+    display: flex;
+    background-color: #ffffff;
+    margin: -8px -10px 0 -8px;
+}
+
+nav .navIcon {
+    height: 48px;
+    width: 48px;
+    background-size: 32px;
+    background-position: center;
+    background-image: url("/icons/git.png");
+    background-repeat: no-repeat;
+    background-color: #f14e32;
+    image-rendering: -webkit-optimize-contrast;
+}
+
+nav .navSearch {
+    height: 48px;
+    width: calc(100% - 50px);
+}
+
+nav .navSearch input {
+    border: 1px solid #cccccc;
+    border-left: none;
+    width: 100%;
+    padding: 5px 10px;
+    max-width: 100%;
+    height: 48px;
+    outline: none !important;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    font-family: "Lucida Console", Monaco, monospace;
+}
+
+nav .navSearch input:placeholder-shown {
+    font-style: italic;
+}
+
+#placeholder {
+    height: 90px;
+    width: 90px;
+    border-radius: 50%;
+    margin: 50px auto 50px auto;
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.12), inset 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1), opacity 0.20s cubic-bezier(.25, .8, .25, 1);
+    background: #ffffff;
+    text-align: center;
+}
+
+#placeholder.hidden {
+    display: block;
+    opacity: 0;
+    margin-top: -128px;
+    margin-bottom: 60px;
+}
+
+#placeholder span {
+    font-size: 40px;
+    line-height: 90px;
+    opacity: 0.6;
+}
+#placeholder span img {
+    width: 48px;
+    margin-top: 20px;
+}
+#results {
+    height: calc(100vh - 48px);
+}
+
+input#cache {
+    opacity: 0;
+    z-index: -1;
+}
+
+.card {
+    background: #fff;
+    border-radius: 2px;
+    padding: 15px;
+    margin: 1rem;
+    position: relative;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+    transition: all 0.3s cubic-bezier(.25, .8, .25, 1);
+}
+
+.card:hover, .card.hover {
+    box-shadow: 0 3px 7px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+}
+
+.card:active {
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+#catalog.alpha {
+    opacity: 0.4;
+}
+
+#catalog .item,
+#searchResults .item {
+    cursor: pointer;
+    flex-wrap: wrap;
+}
+
+#catalog .item .unicode,
+#searchResults .item .unicode {
+    display: inline-block;
+    vertical-align: top;
+    font-size: 25px;
+    width: 48px;
+    min-height: 48px;
+}
+
+#catalog .item .unicode img,
+#searchResults .item .unicode img {
+    width: 38px;
+}
+
+#catalog .item .wrapper,
+#searchResults .item .wrapper {
+    min-height: 48px;
+    display: inline-block;
+    vertical-align: top;
+    width: calc(100% - 48px);
+}
+
+#catalog .item .wrapper .raw,
+#searchResults .item .wrapper .raw {
+    color: #f14e32;
+}
+
+#catalog .item .wrapper .description,
+#searchResults .item .wrapper .description {
+    font-family: "Lucida Console", Monaco, monospace;
+    color: #999999;
+    width: 100%;
+}
+
+#message {
+    position: fixed;
+    top: 78px;
+    left: 0;
+    right: 0;
+    text-align: center;
+}
