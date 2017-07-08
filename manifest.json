@@ -2,7 +2,7 @@
   "manifest_version": 2,
   "name": "gitMoji",
   "description": "Enhance your commits with emojis!",
-  "version": "0.2.1",
+  "version": "0.2.2",
   "browser_action": {
     "default_icon": {
       "16": "./icons/icon-16.png",
