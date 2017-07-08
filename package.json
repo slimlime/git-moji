@@ -8,5 +8,7 @@
   },
   "author": "Louis Grasset",
   "license": "MIT",
-  "dependencies": {}
+  "dependencies": {
+    "js-search": "^1.4.2"
+  }
 }
