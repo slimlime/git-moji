@@ -1,8 +1,9 @@
 {
   "manifest_version": 2,
-  "name": "gitMoji",
+  "name": "gitMoji - Git commits enhancer",
+  "short_name": "gitMoji",
   "description": "Enhance your commits with emojis!",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "browser_action": {
     "default_icon": {
       "16": "./icons/icon-16.png",
