@@ -11,6 +11,7 @@ const CACHE = document.querySelector("input#cache");
 const HOMEICON = document.querySelector("nav .navIcon");
 const CATALOG = document.querySelector("#catalog");
 const MESSAGE = document.querySelector("#message");
+const BADGE = document.querySelector("#badge");
 
 let rank;
 let maxResultsSize;
@@ -79,7 +80,14 @@ const removeCatalogAlpha = () => {
 
 const focusInput = () => {
     INPUT.focus();
-}
+};
+
+const toggleBadge = () => {
+    BADGE.classList.add("active");
+    setTimeout(() => {
+        BADGE.classList.remove("active");
+    }, 1200);
+};
 
 const appendResultItem = (emoji, destination) => {
     let baseItem = `<div class="item card"><div class="unicode">${twemoji.parse(emoji.unicode)}</div><div class="wrapper"><div class="raw">${emoji.raw}</div><div class="description">${emoji.description}</div></div></div>`;
@@ -181,10 +189,12 @@ const copyEmoji = (emoji) => {
     CACHE.value = emoji;
     CACHE.select();
     document.execCommand('copy');
+    toggleBadge();
 };
 
 document.addEventListener('DOMContentLoaded', () => {
     INPUT.placeholder = PLACEHOLDERS[Math.floor((Math.random() * PLACEHOLDERS.length - 1) + 1)];
+    document.querySelector("#badge span").innerHTML = `Copied ${twemoji.parse("🎉")}`;
 });
 
 HOMEICON.addEventListener("click", () => {
