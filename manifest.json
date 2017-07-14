@@ -3,7 +3,8 @@
   "name": "gitMoji - Git commits enhancer",
   "short_name": "gitMoji",
   "description": "Enhance your commits with emojis!",
-  "version": "0.3.1",
+  "version": "0.3.2",
+  "offline_enabled": true,
   "browser_action": {
     "default_icon": {
       "16": "./icons/icon-16.png",

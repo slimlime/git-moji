@@ -1,6 +1,6 @@
 {
   "name": "git-moji",
-  "version": "0.3.1",
+  "version": "0.3.2",
   "description": "Enhance your commits with emojis!",
   "main": "popup.js",
   "scripts": {
