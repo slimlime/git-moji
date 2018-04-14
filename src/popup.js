@@ -103,7 +103,7 @@ document.querySelector(".navSearch").addEventListener("click", () => {
  the placeholder because of the shortcut
  */
 setTimeout(() => {
-    INPUT.addEventListener("keyup", () => {
+    INPUT.addEventListener("keyup", (event) => {
         if (event.key === "ArrowDown" || event.key === "ArrowUp") {
             return;
         }
