@@ -3,7 +3,8 @@
   "name": "gitMoji - Git commits enhancer",
   "short_name": "gitMoji",
   "description": "Enhance your commits with emojis!",
-  "version": "1.1",
+  "version": "1.1.1",
+  "offline_enabled": true,
   "browser_action": {
     "default_icon": {
       "16": "./icons/icon-16.png",
@@ -25,12 +26,6 @@
       "suggested_key": {
         "default": "Alt+Shift+C"
       }
-    }
-  },
-  "applications": {
-    "gecko": {
-      "id": "gitMoji@louisgrasset.fr",
-      "strict_min_version": "54.0"
     }
   },
   "author": "Louis Grasset <gitMoji@louisgrasset.fr> (louisgrasset.fr)"
