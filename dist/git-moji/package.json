@@ -1,0 +1,14 @@
+{
+  "name": "git-moji",
+  "version": "0.3.2",
+  "description": "Enhance your commits with emojis!",
+  "main": "popup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Louis Grasset",
+  "license": "MIT",
+  "dependencies": {
+    "js-search": "^1.4.2"
+  }
+}

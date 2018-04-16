@@ -1,0 +1,33 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <script src="twemoji.min.js"></script>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport"
+          content="width=device-width,height=device-height,initial-scale=1,minimum-scale=1,user-scalable=no">
+    <link rel="stylesheet" href="popup.css">
+    <title>gitMoji : Enhance your commits with emojis!</title>
+</head>
+<body>
+<nav>
+    <div class="navIcon"></div>
+    <div class="navSearch">
+        <input type="text" disabled autofocus placeholder="type some keyword...">
+    </div>
+</nav>
+<div id="placeholder"><span></span></div>
+<div id="searchResults" class=""></div>
+<div id="catalog" class=""></div>
+<div id="message" class="card hidden">
+    No more results...
+</div>
+<div id="badge" class="card">
+    <span></span>
+</div>
+<input type="text" id="cache">
+<script src="porter.js"></script>
+<script src="node_modules/js-search/dist/umd/js-search.js"></script>
+<script src="popup.js"></script>
+</body>
+</html>
